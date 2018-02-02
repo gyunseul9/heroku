@@ -4,4 +4,7 @@ gunicorn==19.7.1
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
+mixpanel==4.3.2
+newrelic==2.100.0.84
+six==1.11.0
 Werkzeug==0.14.1
