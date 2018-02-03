@@ -1,15 +1,15 @@
 from flask import Flask, render_template
 from mixpanel import Mixpanel
 
-'''
+
 mp = Mixpanel('3c2e69cea214b3ae6a8ffacf1106f6c8')
 
 
-mp.track(user_id, 'Sent Message')
-mp.track(user_id, 'Plan Upgraded', {
+mp.track('gyunseul9', 'Sent Message')
+mp.track('gyunseul9', 'Plan Upgraded', {
 	'Old Plan': 'Business',
 	'New Plan': 'Premium'
-})END'''
+})
 
 app = Flask(__name__)
 
