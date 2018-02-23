@@ -20,6 +20,7 @@ mp.track('gyunseul9', 'Plan Upgraded', {
 })
 
 app = Flask(__name__)
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route('/')
 
